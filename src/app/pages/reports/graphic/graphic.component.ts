@@ -10,8 +10,7 @@ import { EntryService } from "../../entries/shared/entry.service";
 
 @Component({
   selector: 'app-graphic',
-  templateUrl: './graphic.component.html',
-  styleUrls: ['./graphic.component.css']
+  templateUrl: './graphic.component.html'
 })
 export class GraphicComponent implements OnInit {
 

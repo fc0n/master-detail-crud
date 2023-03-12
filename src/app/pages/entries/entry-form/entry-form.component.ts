@@ -9,8 +9,7 @@ import { EntryService } from '../shared/entry.service';
 
 @Component({
   selector: 'app-entry-form',
-  templateUrl: './entry-form.component.html',
-  styleUrls: ['./entry-form.component.css']
+  templateUrl: './entry-form.component.html'
 })
 export class EntryFormComponent extends BaseResourceFormComponent<Entry> implements OnInit {
 

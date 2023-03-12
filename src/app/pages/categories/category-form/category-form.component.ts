@@ -7,8 +7,7 @@ import { BaseResourceFormComponent } from 'src/app/shared/components/base-resour
 
 @Component({
   selector: 'app-category-form',
-  templateUrl: './category-form.component.html',
-  styleUrls: ['./category-form.component.css']
+  templateUrl: './category-form.component.html'
 })
 export class CategoryFormComponent extends BaseResourceFormComponent<Category> {
 

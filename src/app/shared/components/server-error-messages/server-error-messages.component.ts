@@ -1,17 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-server-error-messages',
-  templateUrl: './server-error-messages.component.html',
-  styleUrls: ['./server-error-messages.component.css']
+  templateUrl: './server-error-messages.component.html'
 })
-export class ServerErrorMessagesComponent implements OnInit {
+export class ServerErrorMessagesComponent {
 
   @Input('server-error-messages') serveErrorMessages: string[] = null;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
 
 }

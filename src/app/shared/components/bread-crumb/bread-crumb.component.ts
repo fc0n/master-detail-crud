@@ -7,8 +7,7 @@ interface BreadCrumbItem {
 
 @Component({
   selector: 'app-bread-crumb',
-  templateUrl: './bread-crumb.component.html',
-  styleUrls: ['./bread-crumb.component.css']
+  templateUrl: './bread-crumb.component.html'
 })
 export class BreadCrumbComponent implements OnInit {
 

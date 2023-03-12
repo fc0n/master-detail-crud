@@ -6,8 +6,7 @@ import { EntryService } from '../shared/entry.service';
 
 @Component({
   selector: 'app-entry-list',
-  templateUrl: './entry-list.component.html',
-  styleUrls: ['./entry-list.component.css']
+  templateUrl: './entry-list.component.html'
 })
 export class EntryListComponent extends BaseResourceListComponent<Entry> {
 
